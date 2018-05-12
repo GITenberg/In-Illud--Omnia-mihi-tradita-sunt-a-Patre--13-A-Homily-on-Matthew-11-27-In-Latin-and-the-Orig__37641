@@ -14,6 +14,8 @@ creator:
     gutenberg_agent_id: '35906'
     url: http://www.gutenberg.org/2009/agents/35906
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/37641#In-Illud--Omnia-mihi-tradita-sunt-a-Patre--13-A-Homily-on-Matthew-11-27-In-Latin-and-the-Orig_
 gutenberg_issued: '2011-10-06'
 gutenberg_type: Text
 identifiers:
