@@ -1,149 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/37641">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119383</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37641/37641-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-05T19:38:42</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc0c5be5d5e6e4cb1bb2f87f3d3d7ceb4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="Nffe5f08089054672a208963598711858">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-06T18:27:04.785566</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59084</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-06T18:27:04.316611</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nec0e1c5c25db4071afce9f46e7932c65">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nd49ef922b3f8475696da6d9e060d3137">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/35906">
-        <pgterms:alias>Αθανάσιος, Μέγας</pgterms:alias>
-        <pgterms:name>Athanasius, Saint, Patriarch of Alexandria</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373</pgterms:deathdate>
-        <pgterms:alias>Alexandria, Saint Athanasius Archbishop of</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37641/37641-h/37641-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd758058a197d4eec8764f8f7a1fe31d8">
+          <rdf:Description rdf:nodeID="Nb0491cc17be0473eb7df142ddf8ff3bd">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-05T19:38:42</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68128</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23749</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/35906">
+        <pgterms:name>Athanasius, Saint, Patriarch of Alexandria</pgterms:name>
+        <pgterms:alias>Alexandria, Saint Athanasius Archbishop of</pgterms:alias>
+        <pgterms:alias>Αθανάσιος, Μέγας</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:alternative>Εισ το, Πάντα μοι παρεδόθη ὑπὸ τοῦ Πατρός μου</dcterms:alternative>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N796ae7d148334f23b8a1a4c2d7d79b24">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T04:31:39.127079</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134429</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb13604ef4a1f4227944e03da22b54839">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N71121dd647724dfbb14b737a89c41103">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>BV</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2f3f17eca3244e1dbfee46730e4072b9">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Sermons</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T04:31:39.402079</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134421</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N97739abf241d4612bf6df72d15666589">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/37641/37641-0.txt">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-05T19:38:40</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64883</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd4b4531b8e894a51865f3559c8dd86b4">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Na5ea266162574f9fb0bba0f61c7d7392">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64883</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-10-06</dcterms:issued>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47962</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T04:31:38.795083</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28441</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc154097bc8f14dcb9c48185dc99dd62e">
+          <rdf:Description rdf:nodeID="N19f42dd2b9994518bc293b065b5435f4">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-06T18:27:03.367167</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/37641/37641-0.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb97fde58f8ff4e12a7c0f0794ba5b699">
+          <rdf:Description rdf:nodeID="N0caf1bf7ce2c47de8826f27d7ac890c2">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-05T19:38:42</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23540</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfa195cfc753f4ac797827cf98bc2a463">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Neb0c642e20e2450b94e439b8ec52702d">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-05T19:38:42</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23540</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:title>In Illud: Omnia mihi tradita sunt a Patre&#13;
+A Homily on Matthew 11:27, In Latin and the Original Greek</dcterms:title>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pgterms:downloads>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N50959492493e455c975440c67a5cef16">
+      <rdf:Description rdf:nodeID="N80af1af18d204fdca2229b31ff3d8070">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">la</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/37641/37641-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28441</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T04:31:38.855082</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N047fa526f4db49b292c13dcb5a0172ee">
+          <rdf:Description rdf:nodeID="N1cdb976a001c497088d86a15a6f822bd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/37641.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-18T04:31:39.484076</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9c3faf4684c641bdbe514cc3fe8b9ef6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10686</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N558a6205e63b4431a7f9c6fb5dcf737f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/37641/37641-h/37641-h.htm">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68128</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-05T19:38:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6a7224579af34309912a9ea8a6e3b3bc">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N02771106dd8c47619f9412616824bf39">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23749</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/37641"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-05T19:38:42</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</pgterms:downloads>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nd4d273485107499fb8918f01bcd1da78">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:title>In Illud: Omnia mihi tradita sunt a Patre&#13;
-A Homily on Matthew 11:27, In Latin and the Original Greek</dcterms:title>
-    <dcterms:alternative>Εισ το, Πάντα μοι παρεδόθη ὑπὸ τοῦ Πατρός μου</dcterms:alternative>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
 </rdf:RDF>
